@@ -18,7 +18,7 @@ public class GlueToHeadset : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Vector3 forwardF = HeadsetLoc.position + HeadsetLoc.forward * 2f;
-        this.transform.position = new Vector3(forwardF.x, forwardF.y - 3f, forwardF.z);
+        this.transform.position = new Vector3(forwardF.x, forwardF.y - 1.5f, forwardF.z);
 
         //this.transform.rotation = HeadsetLoc.rotation;
         // Update rotation toi match the controller
