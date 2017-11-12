@@ -756,7 +756,7 @@ Prefab:
         type: 2}
       propertyPath: InstantPreviewApk
       value: 
-      objectReference: {fileID: 102900000, guid: e84f684b468dc5d4e960e3c384883da8,
+      objectReference: {fileID: 102900000, guid: d8577e7bda96e4399ae4d5a164b9443d,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce7abbbeb276a1547bd8ce1069fdabb7, type: 2}
