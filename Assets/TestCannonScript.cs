@@ -8,7 +8,7 @@ public class TestCannonScript : MonoBehaviour {
     public Transform CannonEnd;
 
     float timer = 0f;
-    float ShootTreshold = 5f;
+    float ShootTreshold = 15f;
     bool shot = false;
     // Use this for initialization
     void Start () {
