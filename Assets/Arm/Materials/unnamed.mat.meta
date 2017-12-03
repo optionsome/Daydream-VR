@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 2a7472756d7a7c444b239e0b1aefcc6f
-timeCreated: 1510567678
-licenseType: Free
+guid: da58971c363474248aafb917982d9116
+labels:
+- Nature
+- Organic
+- Pattern
+- Fur
+- Hair
+timeCreated: 18446744011573954816
 NativeFormatImporter:
-  mainObjectFileID: 2100000
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

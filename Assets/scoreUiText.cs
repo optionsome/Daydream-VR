@@ -10,7 +10,7 @@ public class scoreUiText : MonoBehaviour {
 
     float timer = 0f;
     bool textDisplaying = false;
-    float displayTime = 1f;
+    float displayTime = 2f;
 
     List<Color> coolColors = new List<Color>()
     {
@@ -42,7 +42,7 @@ public class scoreUiText : MonoBehaviour {
         txt.color = coolColors[Random.Range(0, coolColors.Count)];
 
         currentscore += increase;
-        txt.text = "Score " + currentscore + " \n +" + increase;
+        txt.text = "Score " + currentscore + " + " + increase;
         textDisplaying = true;
         timer = 0f;
     }

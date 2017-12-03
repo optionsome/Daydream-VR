@@ -17,8 +17,9 @@ public class GlueToHeadset : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Vector3 forwardF = HeadsetLoc.position + HeadsetLoc.forward * 2f;
-        this.transform.position = new Vector3(forwardF.x + 3	f, forwardF.y -0.3f, forwardF.z);
+        //Vector3 forwardF = HeadsetLoc.position + HeadsetLoc.forward * 2f;
+        //this.transform.position = new Vector3(forwardF.x + 3f, forwardF.y -0.3f, forwardF.z);
+		this.transform.position = HeadsetLoc.position + HeadsetLoc.forward * 2f + HeadsetLoc.right * 1f - HeadsetLoc.up * 0.5f;
 
         //this.transform.rotation = HeadsetLoc.rotation;
         // Update rotation toi match the controller
@@ -34,11 +35,11 @@ public class GlueToHeadset : MonoBehaviour {
             target = hit.collider.gameObject;
             hitPoint = hit.point;
 
-            pointerDot.SetActive(true);
-            pointerDot.transform.position = hitPoint;
+            //pointerDot.SetActive(true);
+            //pointerDot.transform.position = hitPoint;
         }
         else {
-            pointerDot.SetActive(false);
+            //pointerDot.SetActive(false);
             target = null;
             hitPoint = Vector3.zero;
         }
